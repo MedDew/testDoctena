@@ -14,3 +14,23 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::auth();
+
+//Show the book list
+Route::get('/bookList', 'HomeController@index');
+//Filter the book list
+Route::post('/bookList/{categoryId?}', 'HomeController@searchByCategory');
+
+//Show the creation book form
+Route::get('/createBookForm', 'HomeController@showBookCreationForm');
+Route::post('/createBook', 'HomeController@createBook');
+
+//Show the "deletion" (update of books.is_deleted to 1 simulating deletion ) 
+//of the book selected
+Route::get('/deleteBook/{bookId}', 'HomeController@deleteBook');
+
+//Show the real deletion of the book selected
+Route::get('/deleteForRealBook/{bookId}', 'HomeController@deleteForRealBook');
+
+        

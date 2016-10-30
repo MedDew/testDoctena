@@ -12,7 +12,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'firstname', 'lastname', 'pseudo','password', 'email',
     ];
 
     /**
@@ -21,6 +21,33 @@ class User extends Authenticatable
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token',
+        'password', 'remember_token'
     ];
+    
+    /**
+     * Prevent eloquent from handling the users table's column updated_at & created_at
+     * 
+     * @var boolean
+     */
+    public $timestamps = false;
+    
+    
+    public function books() 
+    {
+        return $this->hasMany("App\Book");
+    }
+    
+    public function getRememberToken() 
+    {
+        return '';
+    }
+    
+    public function setRememberToken($value)   
+    {
+    }
+    
+//    public function getRememberTokenName($param)
+//    {
+//        return 'no_remember_me_functionnality';
+//    }
 }

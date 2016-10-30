@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/wamp/www/laravel/resources/views/home.blade.php</file>
+            <file>file:/C:/wamp/www/laravel/config/auth.php</file>
+            <file>file:/C:/wamp/www/laravel/database/migrations/2014_10_12_000000_create_users_table.php</file>
+            <file>file:/C:/wamp/www/laravel/app/Http/Middleware/RedirectIfAuthenticated.php</file>
+            <file>file:/C:/wamp/www/laravel/app/Category.php</file>
+            <file>file:/C:/wamp/www/laravel/config/app.php</file>
+            <file>file:/C:/wamp/www/laravel/resources/views/auth/register.blade.php</file>
+            <file>file:/C:/wamp/www/laravel/resources/views/layout/masterLayout.blade.php</file>
+            <file>file:/C:/wamp/www/laravel/app/Http/Controllers/HomeController.php</file>
+            <file>file:/C:/wamp/www/laravel/resources/views/createdBook.blade.php</file>
+            <file>file:/C:/wamp/www/laravel/app/Http/Controllers/Auth/AuthController.php</file>
+            <file>file:/C:/wamp/www/laravel/database/migrations/2016_10_27_154050_create_books_table.php</file>
+            <file>file:/C:/wamp/www/laravel/database/migrations/2016_10_28_183539_create_books_categories_table.php</file>
+            <file>file:/C:/wamp/www/laravel/.env</file>
+            <file>file:/C:/wamp/www/laravel/app/User.php</file>
+            <file>file:/C:/wamp/www/laravel/app/Book.php</file>
+            <file>file:/C:/wamp/www/laravel/composer.json</file>
+            <file>file:/C:/wamp/www/laravel/resources/views/auth/login.blade.php</file>
+            <file>file:/C:/wamp/www/laravel/resources/views/layouts/app.blade.php</file>
+            <file>file:/C:/wamp/www/laravel/config/database.php</file>
+            <file>file:/C:/wamp/www/laravel/storage/logs/laravel.log</file>
+            <file>file:/C:/wamp/www/laravel/app/Http/routes.php</file>
+            <file>file:/C:/wamp/www/laravel/app/Http/Middleware/Authenticate.php</file>
+            <file>file:/C:/wamp/www/laravel/app/Http/Kernel.php</file>
+            <file>file:/C:/wamp/www/laravel/database/migrations/2016_10_28_111946_create_categories_table.php</file>
+            <file>file:/C:/wamp/www/laravel/resources/views/bookCreationForm.blade.php</file>
+        </group>
+    </open-files>
+</project-private>
